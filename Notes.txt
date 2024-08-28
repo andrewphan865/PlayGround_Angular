@@ -1,0 +1,9 @@
+ng serve
+
+ng generate component Home --standalone --inline-template
+
+ng generate component HousingLocation --standalone --inline-template
+
+ng generate interface housingLocation
+
+ng g c details --standalone --inline-template
