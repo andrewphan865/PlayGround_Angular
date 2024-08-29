@@ -7,3 +7,8 @@ ng generate component HousingLocation --standalone --inline-template
 ng generate interface housingLocation
 
 ng g c details --standalone --inline-template
+
+ng g s housing
+
+npm install -g json-server
+ json-server --watch db.json
